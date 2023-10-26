@@ -1,0 +1,6 @@
+a = input("введите числа")
+d = input("введите числа")
+cisl1 = set(a)
+cisl2 = set(d)
+cisl3 = cisl1.union(cisl2)
+print(len(cisl3))
